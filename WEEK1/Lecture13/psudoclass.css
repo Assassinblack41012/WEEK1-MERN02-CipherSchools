@@ -1,0 +1,32 @@
+CSS Psuedo Classes Class-13
+
+this classes give our website good view and little bit of intractibility
+
+a:link
+{
+  color: gray
+}
+a:visited
+{
+  color:green
+}
+a:active
+{
+  color:black
+}
+
+[if we place cursor on any element color will change to red]
+:hover
+{
+  color:red
+}
+
+Positon property
+
+static(defaylt),
+relative (styles relative to something) ,
+fixed (fixed to one position not affect my scroll or any other elemtnt [come out or regular flow of document]) ,
+absolute (positon to parent who has relative display property) ,
+sticky it make  element move upto specific position then stick it to at that place;
+[display:sticky
+top:100px]
