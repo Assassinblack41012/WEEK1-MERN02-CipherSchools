@@ -1,1 +1,40 @@
+                                                  All About GIT   Class 5
 
+-                                              Branching
+
+ ~ git checkout -b dev-1
+ ~ git checkout master
+ ~ git checkout -b dev-2
+
+ ~ git checkout dev-1 {Checkout to dev-1 branch}
+ ~ git commit -m "message"
+
+ ~ git checkout dev-2 {Checkout to dev-2 branch}
+ ~ git add.
+ ~ git commit -m "message"
+
+
+-                                             Merging
+
+ ~ git merge dev-1
+ ~ git branch
+
+ ~ git checkout dev-2
+ ~ git checkout master
+ ~ git merge dev-2
+
+ Click ESC
+ :wq
+ Click Enter
+ 
+ ~ git log --oneline
+
+                                     Switching from one branch to another
+
+ ~ git checkout dev-1  [the branch switch from present to dev-1] 
+
+- Conflict means a change in the same lines or ame files.
+  
+                                            DELETING Branch
+ ~ git branch -d {file-name}
+ ` we can't delete master
