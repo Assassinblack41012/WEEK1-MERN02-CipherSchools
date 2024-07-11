@@ -1,0 +1,53 @@
+                                                    LECTURE 3 - CLASS 2
+                                                    #git commands
+
+git status //lets us now whether the file is tracked or not simply the status of the file
+git add index.html since this file wasn't tracked 
+git status //check staging status
+git rm --cached index.html /this is used to bring the file back in the untracked zone inorder to moodify more.. the file
+git commit -m "Initial Commit" //it will go in the commit zone
+  PS C:\BEGINNER-MERN\GIT> git commit -m "Initial Commit"
+  [master (root-commit) 403ed89] Initial Commit
+  1 file changed, 14 insertions(+)
+  create mode 100644 index.html
+git log
+  PS C:\BEGINNER-MERN\GIT> git log
+  commit 403ed8949822aad58f41ae58498e093955c28343 (HEAD -> master)
+  Author: Pratham thakur <hustlerpratham@gmail.com>
+  Date:   Thu Jul 11 20:44:16 2024 +0530
+
+      Initial Commit
+git --global
+git --global user.name "PrathamThakur" --replace-all
+git --global user.mail "hustlerpratham@gmail.com" 
+
+S C:\BEGINNER-MERN\GIT> git log --oneline
+  f00b9fc (HEAD -> master) Second Commit
+  403ed89 Initial Commit
+  PS C:\BEGINNER-MERN\GIT> 
+PS C:\BEGINNER-MERN\GIT> git add .    //will add every untracked file in the directory
+
+PS C:\BEGINNER-MERN\GIT> git add .        
+PS C:\BEGINNER-MERN\GIT> git commit -m "Added home.html"
+[master 023aab4] Added home.html
+ 3 files changed, 20 insertions(+)
+ create mode 100644 home.html
+ create mode 100644 style.css
+PS C:\BEGINNER-MERN\GIT> git log
+commit 023aab420e4f269e7adf3d95d915aaad1c5746c3 (HEAD -> master)
+Author: Pratham thakur <hustlerpratham@gmail.com>
+Date:   Thu Jul 11 21:26:08 2024 +0530
+
+    Added home.html
+
+commit f00b9fc530427cc06bea56508bf4a08de1ff7d24
+Author: Pratham thakur <hustlerpratham@gmail.com>
+Date:   Thu Jul 11 21:01:55 2024 +0530
+
+    Second Commit
+
+commit 403ed8949822aad58f41ae58498e093955c28343
+Author: Pratham thakur <hustlerpratham@gmail.com>
+Date:   Thu Jul 11 20:44:16 2024 +0530
+
+
