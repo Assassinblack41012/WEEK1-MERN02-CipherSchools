@@ -1,0 +1,49 @@
+RECAP
+git init --> go inside folder
+git add --> make changes
+git commit --m "message" --> commit
+
+UTILITY COMMANDS
+git config --> git config --global user.name " name"
+git config --> git config --global user.email " email"
+status teller --> git status 
+git log / git log --one-line
+
+git checkout id  //this helps to go in the past
+git checkout master//from past to present after the checkout
+
+--> branching
+
+PS C:\BEGINNER-MERN\GIT> git checkout f00b9f
+A       example.js
+Note: switching to 'f00b9f'.
+
+You are in 'detached HEAD' state. You can look around, make experimentalchanges and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you maydo so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f00b9fc Second Commit
+PS C:\BEGINNER-MERN\GIT>                     git checkout master
+  A       example.js
+  Previous HEAD position was f00b9fc Second Commit
+  Switched to branch 'master'
+PS C:\BEGINNER-MERN\GIT> git log --online
+ fatal: unrecognized argument: --online
+PS C:\BEGINNER-MERN\GIT> git log --one-line
+ fatal: unrecognized argument: --one-line
+PS C:\BEGINNER-MERN\GIT> git log --online  
+ fatal: unrecognized argument: --online
+PS C:\BEGINNER-MERN\GIT> git log --oneline
+ 023aab4 (HEAD -> master) Added home.html
+ f00b9fc Second Commit
+ 403ed89 Initial Commit
+PS C:\BEGINNER-MERN\GIT> 
