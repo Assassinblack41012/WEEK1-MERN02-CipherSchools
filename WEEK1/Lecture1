@@ -1,1 +1,4 @@
-
+PS C:\BEGINNER-MERN> CD GIT
+PS C:\BEGINNER-MERN\GIT> git init
+ // Initialized empty Git repository in C:/BEGINNER-MERN/GIT/.git/
+PS C:\BEGINNER-MERN\GIT>
