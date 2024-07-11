@@ -1,0 +1,20 @@
+margin: 10px
+border:2px dashsed black
+padding: 5px
+width:200px
+height: 200px
+
+div (block element)
+
+overflow: scroll/hidden
+display: inline-block
+
+margin: top right bottom left
+padding: top right bottom left
+
+for center arrangement:
+margin: 10px auto; top/bottom left/right
+
+display property not inherited to child 
+
+if display is inline no need for width and height
