@@ -1,0 +1,39 @@
+R                                                       REVISE
+git checkout id // safe command
+ git master // revert 
+                                                   GIT COMMANDS Class 4
+
+~ git checkout --> Safe command
+~ git checkout master --> take you to the current status
+~ git revert   --> it is a kind of time traveling in the git, takes you to the particular
+time before committing any kind of change
+
+
+~ git revert (number of the commit you want to go back)
+TO exit - 
+Press ESC
+:wq 
+Then Press ENTER 
+
+~ git reset (message/number of the commit)
+ 
+1. removes the history
+
+2. first, it sends the files to the untracked zone and we can add it back to that state
+by committing
+ 
+3. use this if you are sure
+
+~ git reset --hard (message)
+ 
+1. removes the history
+ 
+2. but don't give it another chance to restore
+
+- Branch out from one point to another
+
+ ~ git branch dev-1  [created a branch]
+ ~ git checkout dev-1 [switch from master to dev-1]
+ ~ git checkout master [switch to master]
+ 
+ ~ git checkout -b dev-2 [Create a branch dev-2, and move to dev-2]
